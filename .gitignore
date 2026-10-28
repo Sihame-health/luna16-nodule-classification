@@ -1,0 +1,24 @@
+# Données LUNA16 (lourdes, sous licence)
+*.mhd
+*.raw
+*.zraw
+data/
+subset*/
+
+# Poids de modèles et sorties d'entraînement
+*.h5
+*.keras
+*.pt
+*.onnx
+runs/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Système
+.DS_Store
+Thumbs.db
